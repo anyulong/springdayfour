@@ -25,8 +25,8 @@ public class BasicApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context=SpringApplication.run(BasicApplication.class, args);
 		System.out.println(context.getBean(FooProperties.class));
-		FooProperties fooProperties = context.getBean(FooProperties.class);
-		System.out.println(fooProperties.getArray().get(0));
+//		FooProperties fooProperties = context.getBean(FooProperties.class);
+//		System.out.println(fooProperties.getArray().get(0));
 	}
 	
 	
